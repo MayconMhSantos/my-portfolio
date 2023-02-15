@@ -203,12 +203,10 @@ html {
 
 .content-about {
     width: 90%;
-    min-height: 50vh ;
-    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 100px 0 100px 0;
+    padding: 100px 0 75px 0;
 }
 
 
@@ -220,11 +218,10 @@ html {
 }
 
 .about-text {
-    width: 50%;
+    width: 750px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
 }
 
 .content-about .about-text h2 {
@@ -232,7 +229,7 @@ html {
     font-size: 7rem;
     text-align: center;
     color: var(--text-primary-color);
-
+    line-height: 2;
     /* color: var(--text-white-color); */
     /* transform: translateY(0px);
     animation: float 5s ease-in-out infinite; */
@@ -240,7 +237,7 @@ html {
 
 .content-about .about-text p {
     font-size: 1.5rem;
-    text-align: left;
+    text-align: justify;
     padding: 0 5rem;
     color: var(--text-primary-color);
     /* color: var(--text-white-color); */
@@ -269,8 +266,7 @@ html {
 }
 
 .section-about .content-about-text {
-    width: 75%;
-    min-height: 50vh;
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -279,19 +275,19 @@ html {
 }
 
 .section-about .content-about-text .card-text{
-    width: 350px;
-    height: 120px;
+    width: 320px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 14px;
-    transition: all .5s;
+    margin: 20px;
     border-radius: 5px;
+    transition: all .3s;
 }
 
 .section-about .exp-about .content-about-text .card-text:hover{
     transform: scale(1.1);
     background-color: rgb(240, 240, 240);
+    transition: all .3s;
 }
 
 .content-about-text .card-text h3{
@@ -322,7 +318,7 @@ html {
     .content-about{
         flex-direction: column;
     }
-    .about-img img{
+    /* .about-img img{
         padding: 0;
         margin: 0;
         width: 350px;
@@ -336,7 +332,7 @@ html {
     .content-about {
         padding: 0;
         gap: 1rem;
-    }
+    } */
 
 }
 
@@ -365,31 +361,34 @@ html {
 }
 
 .content-skills-card {
-    width: 90%;
+    width: 80%;
     height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 75px 0 75px 0;
+    padding: 75px 0 0 0;
     
 }
 
 .card {
+    width: 320px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     padding: 5px 10px 5px 10px;
-    margin: 35px;
+    margin: 20px;
     line-height: 1;
     /* padding-bottom: 50px ; */
     border-radius: 5px;
+    transition: all .3s;
 }
 
 .card:hover {
     transform: scale(1.1);
     background-color: rgb(240, 240, 240);
+    transition: all .3s;
 }
 
 .card h3 {
@@ -413,7 +412,7 @@ html {
 
 .card p {
     max-width: 220px;
-    text-align: center;
+    text-align: left;
     font-size: 1.5rem;
     margin-top: 14px;
     color: var(--text-primary-color);
@@ -447,14 +446,12 @@ html {
 
 
 .footer-contact .section-contact{
-    width: 100vw !important;
     min-height: 100vh;
-    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: start;
-    padding-top: 75px;
+    justify-content: center;
+
 }
 
 .section-contact .container-contact{
