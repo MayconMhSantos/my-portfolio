@@ -745,8 +745,13 @@ html {
 .container-contact{
     width: 90vw;
     margin-bottom: 40px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 .container-contact p{
+    text-align: center;
+    width: 66vw;
     cursor: default;
     font-size: 1.8rem;
     font-family: var(--text-poppins);
