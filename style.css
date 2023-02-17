@@ -737,7 +737,7 @@ html {
     font-size: 1.5rem;
     line-height: 3;
     font-family: var(--text-poppins);
-    width: 90vw;
+
 }
 
 .contact-icon .ul-icons{
@@ -886,6 +886,7 @@ html {
         font-size: 1.5rem;
         line-height: 2;
         font-family: var(--text-poppins);
+        width: 90vw;
     }
     .map-div iframe {
         margin-top: 25px;
