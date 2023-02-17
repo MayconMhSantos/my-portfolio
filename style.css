@@ -561,6 +561,7 @@ html {
     align-items: center;
     justify-content: center;
     background-color: rgb(26, 26, 26);
+    padding-bottom: 75px;
  }
 
  .content-projects{
@@ -625,7 +626,8 @@ html {
 
 .projects-principal .projects-my-p .project-name-link-p img{
     width: 60vw;
-    margin: none;
+    border: none;
+    margin-bottom: 60px;
 }
 .projects-contents .projects-my .project-name-link img{
     width: 420px;
@@ -642,7 +644,7 @@ html {
     font-weight: 400;
     border-top-right-radius: 7px;
     line-height: 1;
-    text-align: center;
+    text-align: left;
 }
 
 .project-name-link p{
@@ -670,7 +672,6 @@ html {
     justify-content: space-around;
 }
 
-
 .project-titles div h3{
     font-size: 2.5rem;
 }
@@ -683,9 +684,7 @@ html {
     margin-bottom: 22px;
     cursor: default;
 }
-.project-titles-two{
-    margin-top: 44px;
-}
+
 .projects-my-p .project-name-link-p .project-titles h4{
     font-size: 2.2rem;
     color: #dbdbdb;
@@ -703,145 +702,62 @@ html {
  }
 
 
+
  /* Section Footer */
 
 .footer-contact .section-contact{
-    min-height: 100vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 75px 0 35px 0;
+    /* background-color: rgb(26, 26, 26); */
+
+}
+.container-contact{
+    width: 90vw;
+    margin-bottom: 40px;
+}
+.container-contact p{
+    font-size: 1.8rem;
+    font-family: var(--text-poppins);
 
 }
 
-.section-contact .container-contact{
-    width: 90%;
+.content-footer{
+    width: 90vw;
+    display: flex;
     align-items: center;
-    justify-content: center;
-    text-align: center;
+    justify-content: space-between;
+
 }
 
-footer .section-contact .container-contact h2{
-    font-size: 7rem;
-    cursor: default;
-}
-
-footer .section-contact .container-contact .contact-div-p{
-    padding: 25px;
-    cursor: default;
-}
-
-footer .section-contact .container-contact .contact-div-p p{
+.content-footer-one p {
     font-size: 1.5rem;
-    cursor: default;
-}
-
-.contact-icon{
-    width: 100%;
-    position: relative;
-    justify-content: space-around;
+    line-height: 3;
+    font-family: var(--text-poppins);
+    width: 90vw;
 }
 
 .contact-icon .ul-icons{
-    width: 100%;
     display: flex;
-    justify-content: space-around;
-    padding: 25px;
+    flex-direction: row;
+    gap: 2vw;
+}
+.ul-icons-box-one .li-icons{
+    padding: 10px 0 10px 0;
 }
 
-.contact-in{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
-}
-
-.map-div{
-    padding-bottom: 20px !important;
-    height: auto;
-    flex: 50%;
-    text-align: center;
-}
-
-.map-div iframe{
-    width: 80%;
-    height: 100%;
-
-}
-
-.form-div{
-    width: 100%;
-    height: auto;
-    flex: 50%;
-    padding: 25px;
-    position: relative;
-}
-
-.form-div form{
-    /* width: 500px; */
-    color: rgb(15, 15, 15);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.form-div form label{
-    margin-left: 5px;
-    padding: 0px;
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: rgb(15, 15, 15);
-}
-
-.form-div form input{    
-    margin: 5px;
-    height: 50px;
-    padding: 5px;
-
-}
-
-.form-div form textarea{
-    margin: 5px;
-    padding: 5px;
-
-}
-
-.ul-icons .li-icons{
-    position: relative;
-    list-style: none;
-}
-
-.div-btn-footer{
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    padding-top: 25px;
-}
-
-.btn-contact-footer{
-    width: 190px;
-    font-size: 1.7rem;
-    padding: 7px 45px;
-    cursor: pointer;
-    border: 2px solid var(--text-primary-color);
-    background-color: transparent;
-    transition: all 0.5s;
-}
-
-.btn-contact-footer:hover{
-    font-weight: 600;
-    transform: scale(1.1);
-    transition: all 0.5s;
- 
+.map-div iframe {
+    width: 30vw;
+    height: 20vh;
 }
 
 
 #face, #insta, #linke, #git, #whatsapp{
     color: rgb(15, 15, 15);
     font-size: 4.5vh;
-    
 }
 
 #face:hover{
@@ -860,6 +776,7 @@ footer .section-contact .container-contact .contact-div-p p{
 #whatsapp:hover{
     color: #09b826;
 }
+
 
 @keyframes float {
     0% {
@@ -884,5 +801,116 @@ footer .section-contact .container-contact .contact-div-p p{
 }
 
 @media (max-width: 600px) {
+    .section-home .content-home h1{
+        font-size: 4rem;
+        position: relative;
+        bottom: 100px;
+    }
+    .section-home .content-home h2{
+        font-size: 3rem;
+        position: relative;
+        bottom: 100px;
+    }
+    .content-about .about-img img{
 
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 250px;
+    max-height: 2500px;
+    border-radius: 50%;
+    }
+
+    .content-about .about-text h2 {
+        font-size: 4rem;
+    }
+    .content-about{
+        padding-bottom: 50px;
+    }
+    .about-text {
+        width: 400px;
+    }
+    .content-about .about-text p{
+        font-size: 1.3rem;
+    }
+    .about-h3 h3 {
+        width: 300px;
+        text-align: center;
+        font-size: 4rem;
+        padding-bottom: 25px;
+        font-family: var(--text-Montserrat);
+    }
+    .section-art-one .content-art-one-title .title-art-one-h2{
+        font-size: 3rem !important;
+    }
+
+    .projects-principal, .projects-contents {
+        width: 100vw;
+    }
+    .project-titles div p {
+        max-width: 90vw;
+        text-align: left;
+    }
+    .projects-principal .projects-my-p .project-name-link-p img {
+        width: 80vw;
+        margin-bottom: 40px;
+    }
+    .project-name-link {
+        width: 90vw;
+    }
+    .project-name-link p {
+        width: 90vw;
+        padding: 0;
+        text-align: left;
+    }
+    .form-whatsapp{
+        margin-bottom: 50px;
+    }
+    .projects-contents .projects-my .project-name-link img {
+        width: 320px;
+        height: 220px;
+        background-position: center;
+        background-size: cover;
+        border: none;
+        border-radius: 3px;
+    }
+    .container-contact p {
+        font-size: 1.5rem;
+        text-align: left;
+    }
+    .content-footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .content-footer-one p {
+        font-size: 1.5rem;
+        line-height: 2;
+        font-family: var(--text-poppins);
+    }
+    .map-div iframe {
+        margin-top: 25px;
+        width: 90vw;
+        height: 30vh;
+    }
+
+    .item-A{
+        order: 2;
+    }
+    .item-B{
+        order: 1;
+        margin-bottom: 25px;
+    }
+    .item-C{
+        order: 2;
+    }
+    .ul-icons-box-one{
+        display: flex;
+    }
+    .contact-icon .ul-icons{
+        gap: 0;
+    }
+    .ul-icons-box-one li{
+        padding: 14px !important;
+
+    }
 }
