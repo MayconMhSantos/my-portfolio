@@ -561,7 +561,7 @@ html {
     align-items: center;
     justify-content: center;
     background-color: rgb(26, 26, 26);
-    padding-bottom: 75px;
+    padding-bottom: 50px;
  }
 
  .content-projects{
@@ -628,6 +628,8 @@ html {
     width: 60vw;
     border: none;
     margin-bottom: 60px;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.2);
+
 }
 .projects-contents .projects-my .project-name-link img{
     width: 420px;
@@ -866,11 +868,13 @@ html {
         margin-bottom: 50px;
     }
     .projects-contents .projects-my .project-name-link img {
-        width: 80vw;
+        width: 320px;
+        height: 240px;
         background-position: center;
         background-size: cover;
         border: none;
         border-radius: 3px;
+        box-shadow: 4px 4px rgba(0, 0, 0, 0.2);
     }
     .container-contact p {
         font-size: 1.5rem;
