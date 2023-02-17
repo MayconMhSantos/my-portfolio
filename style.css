@@ -644,7 +644,7 @@ html {
     font-weight: 400;
     border-top-right-radius: 7px;
     line-height: 1;
-    text-align: left;
+    text-align: center;
 }
 
 .project-name-link p{
@@ -653,7 +653,7 @@ html {
     font-size: 1.5rem;
     color: var(--secondary-color);
     width: 380px;
-    text-align: justify;
+    text-align: center;
 }
 .project-name-link{
     font-size: 1.5rem;
@@ -844,12 +844,10 @@ html {
         font-size: 3rem !important;
     }
 
-    .projects-principal, .projects-contents {
-        width: 100vw;
-    }
+
     .project-titles div p {
         max-width: 90vw;
-        text-align: left;
+        text-align: center;
     }
     .projects-principal .projects-my-p .project-name-link-p img {
         width: 80vw;
@@ -857,18 +855,18 @@ html {
     }
     .project-name-link {
         width: 90vw;
+        text-align: center;
     }
     .project-name-link p {
         width: 90vw;
         padding: 0;
-        text-align: left;
+        text-align: center;
     }
     .form-whatsapp{
         margin-bottom: 50px;
     }
     .projects-contents .projects-my .project-name-link img {
-        width: 320px;
-        height: 220px;
+        width: 80vw;
         background-position: center;
         background-size: cover;
         border: none;
