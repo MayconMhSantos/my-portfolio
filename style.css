@@ -653,6 +653,12 @@ html {
     box-shadow: 10px 8px 11px  rgba(0, 0, 0, 0.5);
 } 
 
+.project-one-lotus .project-two-img img:hover{
+    transform: scale(1.03);
+    transition: all 0.3s;
+    box-shadow: 10px 15px 30px 15px  rgba(0, 180, 39, 0.568);
+}  
+
 .project-two-text h2 {
     font-size: 4rem;
     font-family: var(--text-poppins);
@@ -674,8 +680,29 @@ html {
     max-width: 76vw;
     border-radius: 3px;  
     border: none;
+        transition: all 0.3s;
     box-shadow: 10px 8px 11px  rgba(0, 0, 0, 0.5);
 } 
+.project-two-gustavo .project-two-img img:hover{
+    transform: scale(1.03);
+    transition: all 0.3s;
+    box-shadow: 10px 15px 30px 15px  rgba(0, 0, 0, 0.5);
+}
+
+.project-two-gustavo .project-three-img img{
+    max-width: 76vw;
+    border-radius: 3px;  
+    border: none;
+        transition: all 0.3s;
+    box-shadow: 10px 8px 11px  rgba(0, 0, 0, 0.5);
+} 
+.project-two-gustavo .project-three-img img:hover{
+    transform: scale(1.03);
+    transition: all 0.3s;
+    box-shadow: 10px 15px 30px 15px  rgba(212, 7, 7, 0.555);
+}
+
+
 
 .icon-Git{
     font-size: 5rem;
